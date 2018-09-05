@@ -5,7 +5,7 @@ class TestProps extends Component {
   render() {
     return (
       <div>
-        <p>value which is passed by test props</p>
+        <h4>Props Example</h4>
         <p>{this.props.text}</p>
         <button onClick={this.props.valid}>valid_test</button>
       </div>
