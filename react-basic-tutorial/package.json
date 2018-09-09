@@ -1,5 +1,5 @@
 {
-  "name": "todo-react",
+  "name": "react-basic-tutorial",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,6 +10,10 @@
       "stage-2"
     ]
   },
+  "bugs": {
+    "url": "https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/issues"
+  },
+  "homepage": "https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton#readme",
   "scripts": {
     "clean": "rm -rf dist && webpack --mode production",
     "build": "webpack --mode production",

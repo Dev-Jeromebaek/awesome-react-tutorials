@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import TestComponent from './TestComponent';
-import ScrollBox from './ScrollBox';
+import TestGetSnapshotBeforeUpdate from './TestGetSnapshotBeforeUpdate';
+import TestDidCatch from './TestDidCatch';
 
 class TestLifeCycle extends Component {
   state = {
@@ -29,7 +30,6 @@ class TestLifeCycle extends Component {
   render() {
     return (
       <div>
-        <hr />
         <h3>test lifecycle</h3>
         <button ref={this.divRef} onClick={() => console.log('--divRef Click')}>
           test ref Click
@@ -37,7 +37,10 @@ class TestLifeCycle extends Component {
         <TestComponent value={this.state.counter} />
         <button onClick={this.handleClick}>Plus Counter</button>
         <hr />
-        <ScrollBox />
+        <TestGetSnapshotBeforeUpdate />
+        <br />
+        <hr />
+        <TestDidCatch />
       </div>
     );
   }
