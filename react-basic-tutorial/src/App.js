@@ -7,6 +7,7 @@ import TestState from './components/01_basic/TestState';
 import TestLifeCycle from './components/02_lifeCycle/TestLifeCycle';
 import ParentEvent from './components/03_formState/ParentEvent';
 import InfoFrame from './components/04_array/InfoFrame';
+import RefTestComponent from './components/05_refs/RefTestComponent';
 
 class App extends Component {
   render() {
@@ -39,6 +40,11 @@ class App extends Component {
         <h2>04.Array Management</h2>
         <h3>- 배열 데이터 렌더링 및 관리</h3>
         <InfoFrame />
+        <hr />
+        <br />
+        <h2>05.Refs</h2>
+        <h3>- Refs 와 DOM 엘리먼트</h3>
+        <RefTestComponent />
         <hr />
         <br />
       </div>
