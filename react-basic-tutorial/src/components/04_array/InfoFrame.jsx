@@ -10,6 +10,7 @@ class InfoFrame extends Component {
     information: [],
     keyword: '',
   };
+
   handleChange = e => {
     this.setState({
       keyword: e.target.value,

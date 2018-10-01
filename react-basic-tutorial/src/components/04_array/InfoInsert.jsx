@@ -5,7 +5,7 @@ class InfoInsert extends Component {
     super(props);
     this.nameRef = React.createRef();
   }
-  state = {
+  state = { 
     name: '',
     age: '',
   };
