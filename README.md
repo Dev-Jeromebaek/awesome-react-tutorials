@@ -4,16 +4,12 @@
 
 ## 목차
 
-1. 
-[React 기본 Tutorial 진행]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-basic-tutorial
+1. [React 기본 Tutorial 진행]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-basic-tutorial
 
-2. 
-[JavaScript 에서 Immutable.js 사용하기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-immutableJS
+2. [JavaScript 에서 Immutable.js 사용하기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-immutableJS
 
-3. 
-[React 에서 Immutable.js 사용하기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-immutability-example
+3. [React 에서 Immutable.js 사용하기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/react-immutability-example
 
-4. 
-[Redux 훑어보기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/redux-example-tutorial
+4. [Redux 훑어보기]: https://github.com/Dev-JeromeBaek/awesome-dev-tutorials/tree/master/redux-example-tutorial
 
 
