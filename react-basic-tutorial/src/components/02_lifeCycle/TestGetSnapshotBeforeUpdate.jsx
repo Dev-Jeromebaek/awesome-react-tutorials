@@ -35,8 +35,8 @@ class TestGetSnapshotBeforeUpdate extends Component {
 
   componentDidUpdate(prevProps, prevState, snapshot) {
     console.log('--componentDidUpdate');
-    // console.log(this.list.scrollHeight);
-    // console.log(snapshot.scrollHeight);
+    console.log(this.list.scrollHeight);
+    console.log(snapshot.scrollHeight);
     if (snapshot) {
       const { scrollTop } = this.list;
       if (scrollTop !== snapshot.scrollTop) return; // 기능이 이미 구현되어있다면 처리하지 않습니다.

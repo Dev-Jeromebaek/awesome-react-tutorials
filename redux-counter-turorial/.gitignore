@@ -32,11 +32,11 @@ bower_components
 .lock-wscript
 
 # production
-/build
+# /build
 /dist
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# build/Release
 dist/Release
 
 # Dependency directories
