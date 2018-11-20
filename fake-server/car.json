@@ -1,0 +1,899 @@
+{
+  "cars": {
+    "count": 732,
+    "next": "http://webfront.recruit.heydealer.com/cars/?page=2",
+    "previous": null,
+    "results": [
+      {
+        "id": 1468,
+        "customer": null,
+        "detail": {
+          "name": "LF 쏘나타 2.0 스타일",
+          "model": 366,
+          "location": "대전 유성구",
+          "car_number": "53너5290",
+          "year": 2015,
+          "fuel": "gasoline",
+          "color": "다크그레이",
+          "mileage": 104335,
+          "transmission": "auto",
+          "initial_registration_date": "2015-06-23",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180618/1670968_8d001c9e-a6a6-4239-bc30-0e1675ccd491.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1468,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": {
+            "id": 3818,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 7200,
+            "is_modified": false
+          },
+          "highest_bid": {
+            "id": 3594,
+            "dealer": {
+              "id": 1005,
+              "name": "김영석",
+              "title": "이사",
+              "image": null
+            },
+            "price": 8500,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 2,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1467,
+        "customer": null,
+        "detail": {
+          "name": "BMW 5시리즈 6세대 GT ED Edition 6세대 F07",
+          "model": 1165,
+          "location": "경기 성남시",
+          "car_number": "60거5101",
+          "year": 2015,
+          "fuel": "diesel",
+          "color": "검정",
+          "mileage": 33000,
+          "transmission": "auto",
+          "initial_registration_date": "2015-05-27",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180725/1827167_3e408421-4173-4f31-9b53-01302bd4decc.jpg",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1467,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3219,
+            "dealer": {
+              "id": 1391,
+              "name": "정진영",
+              "title": "부장",
+              "image": null
+            },
+            "price": 9700,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 3,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1466,
+        "customer": null,
+        "detail": {
+          "name": "싼타페 DM 디젤(e-VGT) 2.0 4WD 스마트 (7인승)",
+          "model": 339,
+          "location": "경기 김포시",
+          "car_number": "01호2476",
+          "year": 2014,
+          "fuel": "diesel",
+          "color": "아이보리",
+          "mileage": 107000,
+          "transmission": "auto",
+          "initial_registration_date": "2013-07-26",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856175_9713b120-12ed-4cf7-a322-4da87c7a73e1.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1466,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": null,
+          "selected_bid": null,
+          "bids_count": 0,
+          "is_visited": true,
+          "visits_count": 1,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1465,
+        "customer": null,
+        "detail": {
+          "name": "SM3 뉴 제너레이션 SE16",
+          "model": 937,
+          "location": "경기 고양시",
+          "car_number": "14고5620",
+          "year": 2006,
+          "fuel": "gasoline",
+          "color": "회색",
+          "mileage": 137700,
+          "transmission": "auto",
+          "initial_registration_date": "2006-01-04",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1857820_ef1abe04-16ea-4dc2-afec-90e0388c8275.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1465,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": {
+            "id": 3853,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 8400,
+            "is_modified": false
+          },
+          "highest_bid": {
+            "id": 3853,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 8400,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 2,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1464,
+        "customer": null,
+        "detail": {
+          "name": "BMW 3시리즈 6세대 GT 320d 6세대 F34",
+          "model": 1160,
+          "location": "서울 영등포구",
+          "car_number": "64마3467",
+          "year": 2014,
+          "fuel": "diesel",
+          "color": "메탈그레이",
+          "mileage": 50000,
+          "transmission": "auto",
+          "initial_registration_date": "2013-06-28",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856282_a72f4fb5-4478-4687-8385-30f2d822963d.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1464,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3705,
+            "dealer": {
+              "id": 1913,
+              "name": "김효충",
+              "title": "대표",
+              "image": null
+            },
+            "price": 8800,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1463,
+        "customer": null,
+        "detail": {
+          "name": "크루즈 1.8 LT+",
+          "model": 784,
+          "location": "전북 군산시",
+          "car_number": "13어7406",
+          "year": 2012,
+          "fuel": "gasoline",
+          "color": "검정",
+          "mileage": 70000,
+          "transmission": "auto",
+          "initial_registration_date": "2012-05-02",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1855710_723423f5-3dbc-4f9c-9d67-3768879ace4c.jpeg",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1463,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3375,
+            "dealer": {
+              "id": 1845,
+              "name": "이용식",
+              "title": "사장",
+              "image": null
+            },
+            "price": 10000,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 2,
+          "is_visited": true,
+          "visits_count": 3,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1462,
+        "customer": null,
+        "detail": {
+          "name": "싼타페 CM 2WD(2.0VGT) CLX 최고급형",
+          "model": 340,
+          "location": "인천 남동구",
+          "car_number": "50더9752",
+          "year": 2009,
+          "fuel": "diesel",
+          "color": "검정",
+          "mileage": 100000,
+          "transmission": "auto",
+          "initial_registration_date": "2008-10-21",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1858621_544e5b4d-6ecc-40ef-954c-34e472ba7a95.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1462,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": {
+            "id": 3837,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 4300,
+            "is_modified": false
+          },
+          "highest_bid": {
+            "id": 2237,
+            "dealer": {
+              "id": 1904,
+              "name": "최영봉",
+              "title": "실장",
+              "image": null
+            },
+            "price": 8400,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 2,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1461,
+        "customer": null,
+        "detail": {
+          "name": "아이오닉 Q",
+          "model": 1289,
+          "location": "경기 광명시",
+          "car_number": "69보0790",
+          "year": 2016,
+          "fuel": "hybrid",
+          "color": "흰색",
+          "mileage": 37277,
+          "transmission": "auto",
+          "initial_registration_date": "2016-03-22",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856110_271cac63-68c8-4e8a-b460-e7c0ac3c7e53.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1461,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2204,
+            "dealer": {
+              "id": 1761,
+              "name": "황종수",
+              "title": "대표",
+              "image": null
+            },
+            "price": 5200,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1460,
+        "customer": null,
+        "detail": {
+          "name": "스팅어 3.3 터보 2WD GT",
+          "model": 1545,
+          "location": "강원 춘천시",
+          "car_number": "48도4767",
+          "year": 2018,
+          "fuel": "gasoline",
+          "color": "스노우화이트펄",
+          "mileage": 28000,
+          "transmission": "auto",
+          "initial_registration_date": "2017-10-26",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180416/1434339_08a2b7ad-e387-4ba1-8a8e-9891579d74e0.jpg",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1460,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2515,
+            "dealer": {
+              "id": 1960,
+              "name": "이태정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 3400,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1459,
+        "customer": null,
+        "detail": {
+          "name": "제네시스 쿠페 200 터보 D",
+          "model": 318,
+          "location": "경기 성남시",
+          "car_number": "35조6352",
+          "year": 2009,
+          "fuel": "gasoline",
+          "color": "흰색",
+          "mileage": 110000,
+          "transmission": "auto",
+          "initial_registration_date": "2008-11-07",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1855444_1f8978d4-f1c0-4f6b-8149-c3f2899e30fd.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1459,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": null,
+          "selected_bid": null,
+          "bids_count": 0,
+          "is_visited": true,
+          "visits_count": 1,
+          "is_starred": true
+        }
+      },
+      {
+        "id": 1458,
+        "customer": null,
+        "detail": {
+          "name": "올 뉴 K7 3.3 GDI 노블레스",
+          "model": 1245,
+          "location": "서울 강남구",
+          "car_number": "17다9126",
+          "year": 2017,
+          "fuel": "gasoline",
+          "color": "플라티늄 그라파이트",
+          "mileage": 13000,
+          "transmission": "auto",
+          "initial_registration_date": "2017-03-27",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856878_bb37e0cb-8ab7-4276-b4e2-1cc15f29a71d.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1458,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": null,
+          "selected_bid": null,
+          "bids_count": 0,
+          "is_visited": true,
+          "visits_count": 1,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1457,
+        "customer": null,
+        "detail": {
+          "name": "BMW 5시리즈 6세대 528i 세단 6세대 F10",
+          "model": 1165,
+          "location": "광주 남구",
+          "car_number": "66머7733",
+          "year": 2011,
+          "fuel": "gasoline",
+          "color": "은색",
+          "mileage": 150000,
+          "transmission": "auto",
+          "initial_registration_date": "2011-05-24",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180625/1698152_39e842eb-5cf0-49aa-bb94-1301dd712aca.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1457,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3661,
+            "dealer": {
+              "id": 1255,
+              "name": "김영식",
+              "title": "실장",
+              "image": null
+            },
+            "price": 7800,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 3,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1456,
+        "customer": null,
+        "detail": {
+          "name": "BMW 5시리즈 6세대 520d 세단 6세대 F10",
+          "model": 1165,
+          "location": "경기 광명시",
+          "car_number": "60누1011",
+          "year": 2015,
+          "fuel": "diesel",
+          "color": "검정",
+          "mileage": 34000,
+          "transmission": "auto",
+          "initial_registration_date": "2014-12-30",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1855490_af42319c-dce4-44aa-9164-8c8aa29fbc7b.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1456,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3474,
+            "dealer": {
+              "id": 1031,
+              "name": "송상영",
+              "title": "전무",
+              "image": null
+            },
+            "price": 9500,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 3,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": true
+        }
+      },
+      {
+        "id": 1455,
+        "customer": null,
+        "detail": {
+          "name": "그랜저 HG HG300 노블",
+          "model": 354,
+          "location": "경기 화성시",
+          "car_number": "68더3026",
+          "year": 2012,
+          "fuel": "gasoline",
+          "color": "브론즈",
+          "mileage": 94000,
+          "transmission": "auto",
+          "initial_registration_date": "2012-03-23",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856042_dacddf86-da1c-4228-aa39-a232bf860705.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1455,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2176,
+            "dealer": {
+              "id": 1903,
+              "name": "송정한",
+              "title": "과장",
+              "image": null
+            },
+            "price": 7600,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 5,
+          "is_visited": true,
+          "visits_count": 6,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1454,
+        "customer": null,
+        "detail": {
+          "name": "더 넥스트 스파크 LTZ",
+          "model": 775,
+          "location": "경남 창원시",
+          "car_number": "46다3665",
+          "year": 2017,
+          "fuel": "gasoline",
+          "color": "건그레이",
+          "mileage": 8800,
+          "transmission": "auto",
+          "initial_registration_date": "2017-02-03",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856140_4fffd416-8ffa-4cca-9107-f0a3cb562ace.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1454,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3261,
+            "dealer": {
+              "id": 1738,
+              "name": "강민구",
+              "title": "과장",
+              "image": null
+            },
+            "price": 9100,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 3,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1453,
+        "customer": null,
+        "detail": {
+          "name": "All New 마티즈 SE",
+          "model": 735,
+          "location": "부산 사상구",
+          "car_number": "47더0477",
+          "year": 2008,
+          "fuel": "gasoline",
+          "color": "흰색",
+          "mileage": 90000,
+          "transmission": "auto",
+          "initial_registration_date": "2008-02-11",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856497_d1f71a1e-64e2-4d5e-a47e-4ed1e87c7a0d.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1453,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2826,
+            "dealer": {
+              "id": 1737,
+              "name": "김재두",
+              "title": "부장",
+              "image": null
+            },
+            "price": 9500,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1452,
+        "customer": null,
+        "detail": {
+          "name": "뉴렉스턴 4WD RX5 EDI 최고급형",
+          "model": 17,
+          "location": "경기 성남시",
+          "car_number": "36가7784",
+          "year": 2004,
+          "fuel": "diesel",
+          "color": "하얀색",
+          "mileage": 178000,
+          "transmission": "auto",
+          "initial_registration_date": "2004-02-04",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1854007_ac3bd994-93a3-4baf-bc3f-dad510e9ac89.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1452,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2602,
+            "dealer": {
+              "id": 1208,
+              "name": "김용긍",
+              "title": "부장",
+              "image": null
+            },
+            "price": 6700,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1451,
+        "customer": null,
+        "detail": {
+          "name": "벨로스터 터보 D 스펙",
+          "model": 322,
+          "location": "서울 성북구",
+          "car_number": "67수0786",
+          "year": 2014,
+          "fuel": "gasoline",
+          "color": "청색",
+          "mileage": 94000,
+          "transmission": "auto",
+          "initial_registration_date": "2014-01-09",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180725/1823751_ad7c4e0e-ab2b-4c09-a1ee-0b728168411a.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1451,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": {
+            "id": 3820,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 9800,
+            "is_modified": false
+          },
+          "highest_bid": {
+            "id": 3820,
+            "dealer": {
+              "id": 2004,
+              "name": "안유정",
+              "title": "과장",
+              "image": null
+            },
+            "price": 9800,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 4,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1450,
+        "customer": null,
+        "detail": {
+          "name": "레이 디럭스 스페셜",
+          "model": 583,
+          "location": "서울 마포구",
+          "car_number": "19더5988",
+          "year": 2012,
+          "fuel": "gasoline",
+          "color": "아이보리",
+          "mileage": 104000,
+          "transmission": "auto",
+          "initial_registration_date": "2012-05-10",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1857083_a5526230-5566-44b6-980e-f517d3f7e3b6.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1450,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 3340,
+            "dealer": {
+              "id": 1895,
+              "name": "남상진",
+              "title": "실장",
+              "image": null
+            },
+            "price": 7200,
+            "is_modified": false
+          },
+          "selected_bid": null,
+          "bids_count": 1,
+          "is_visited": true,
+          "visits_count": 2,
+          "is_starred": false
+        }
+      },
+      {
+        "id": 1449,
+        "customer": null,
+        "detail": {
+          "name": "SM7 RE35",
+          "model": 921,
+          "location": "인천 남구",
+          "car_number": "05노5897",
+          "year": 2006,
+          "fuel": "gasoline",
+          "color": "검정",
+          "mileage": 110000,
+          "transmission": "auto",
+          "initial_registration_date": "2006-05-03",
+          "main_image": {
+            "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856115_f7e4af2f-aeff-4af1-8301-3793f7207aa7.JPEG",
+            "is_main": true
+          }
+        },
+        "auction": {
+          "id": 1449,
+          "started_at": "2018-10-31 11:58:52",
+          "end_at": "2018-11-30 11:58:52",
+          "expire_at": "2018-12-02 11:58:52",
+          "status": "approved",
+          "my_bid": null,
+          "highest_bid": {
+            "id": 2844,
+            "dealer": {
+              "id": 1944,
+              "name": "정용규",
+              "title": "대표",
+              "image": null
+            },
+            "price": 7900,
+            "is_modified": true
+          },
+          "selected_bid": null,
+          "bids_count": 3,
+          "is_visited": true,
+          "visits_count": 4,
+          "is_starred": true
+        }
+      }
+    ]
+  }
+}
