@@ -1,6 +1,6 @@
 # Awesome-React-Tutorials
 
--   React 로 진행하는 tutorial project 입니다. 👍🏻 \*
+-   React 로 진행하는 tutorial project 입니다. 👍🏻
 
 ## 목차
 
