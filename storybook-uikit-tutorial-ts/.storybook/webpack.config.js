@@ -3,9 +3,9 @@ module.exports = ({ config, mode }) => {
     test: /\.(ts|tsx)$/,
     use: [
       {
-        loader: require.resolve("babel-loader"),
+        loader: require.resolve('babel-loader'),
         options: {
-          presets: [["react-app", { flow: false, typescript: true }]],
+          presets: [['react-app', { flow: false, typescript: true }]],
           plugins: [
             [
               require.resolve('babel-plugin-named-asset-import'),
@@ -20,9 +20,9 @@ module.exports = ({ config, mode }) => {
           ]
         }
       },
-      require.resolve("react-docgen-typescript-loader")
+      require.resolve('react-docgen-typescript-loader')
     ]
   });
-  config.resolve.extensions.push(".ts", ".tsx");
+  config.resolve.extensions.push('.ts', '.tsx');
   return config;
 };
