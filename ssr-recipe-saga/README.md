@@ -377,3 +377,78 @@ const serverRender = async (req, res, next) => {
 ##### saga 를 이용한 데이터 로딩 완료.
 
 ---
+
+### 4. usePreplader Hook 만들어서 사용하기
+
+- 지금까지 컨테이너 컴포넌트에서 Preloader 컴포넌트를 사용하여 서버 사이드 렌더링을 하기 전 데이터가 필요한 상황에 API를 요청했다.
+- 이 작업을 usePreloader라는 커스텀 Hook 함수를 만들어서 이 작업을 더욱 편하게 처리해보자.
+
+1. `usePreloader` 만들기
+
+   ```javascript
+   // src/lib/PreloadContext.js
+
+   import { createContext, useContext } from 'react';
+
+   // 클라이언트 환경: null
+   // 서버 환경: { done: false, promises: [] }
+   (...)
+
+   // ----- 추가 -----
+   // Hook 형태로 사용할 수 있는 함수
+   export const usePreloader = resolve => {
+     const preloadContext = useContext(PreloadContext);
+     if (!preloadContext) return null;
+     if (preloadContext.done) return null;
+     preloadContext.promises.push(Promise.resolve(resolve()));
+   };
+   ```
+
+2) `usePreloader` 훅 사용해보기
+
+   ```react
+   // src/containers/UserContainer.js
+
+   import React, { useEffect } from 'react';
+   import { useSelector, useDispatch } from 'react-redux';
+   import User from '../components/User';
+   // ----- 추가 -----
+   import { usePreloader } from '../lib/PreloadContext';
+   import { getUser } from '../modules/users';
+
+   const UserContainer = ({ id }) => {
+     const user = useSelector(state => state.users.user);
+     const dispatch = useDispatch();
+     // ----- 추가 -----
+     usePreloader(() => dispatch(getUser(id))); // 서버 사이드 렌더링을 할 때 API 호출하기
+
+     useEffect(() => {
+       if (user && user.id === parseInt(id, 10)) return; // 사용자가 존재하고, id가 일치한다면 요청하지 않음
+       dispatch(getUser(id));
+     }, [dispatch, id, user]); // id가 바뀔 때 새로운 요청해야 함
+
+     // 컨테이너 유효성 검사 후 return null을 해야 하는 경우에
+     // null 대신 Preloader 반환
+     // ----- 삭제 -----
+     // if (!user) {
+     //   return <Preloader resolve={() => dispatch(getUser(id))} />;
+     // }
+     // ----- 추가 -----
+     if (!user) return null;
+     return <User user={user} />;
+   };
+
+   export default UserContainer;
+
+   ```
+
+   - 함수형 컴포넌트에서는 이렇게 usePreloader 훅을 사용하면 되고,
+   - 클래스형 컴포넌트를 사용할 땐 Preloader 컴포넌트를 사용하면 됨.
+
+3. 결과 테스트
+
+   `$ yarn build`
+
+   `$ yarn build:server`
+
+   `$ yarn start:server`
