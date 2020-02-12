@@ -503,11 +503,6 @@ export const Preloader = ({ resolve }) => {
 
     - 서버 실행 후 http://localhost:5000/users 경로에 들어가서 확인
 
-
-    ![image-20200211170631247](/Users/chocompany/Library/Application Support/typora-user-images/image-20200211170631247.png)
-
 #####
 
 ---
-
-##

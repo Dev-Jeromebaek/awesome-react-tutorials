@@ -252,8 +252,6 @@ export default UserContainer;
 
 서버 브라우저에서 `/users` 페이지에 있는 `사용자 링크`를 클릭하거나, `/users/1` 경로에 직접 접근해보기
 
-![image-20200211165421736](/Users/chocompany/Library/Application Support/typora-user-images/image-20200211165421736.png)
-
 8. redux-saga를 위한 서버 사이드 렌더링 작업
 
    - redux-thunk를 사용하면 Preloader를 통해 호출한 함수들이 Promise를 반환하지만, redux-saga를 사용하면 Promise를 반환하지 않기 때문에 추가 작업이 필요함.
@@ -369,10 +367,6 @@ const serverRender = async (req, res, next) => {
 
 
     - http://localhost:5000/users/1 페이지에서 새로고침해보기
-
-
-
-    ![image-20200211172713992](/Users/chocompany/Library/Application Support/typora-user-images/image-20200211172713992.png)
 
 ##### saga 를 이용한 데이터 로딩 완료.
 

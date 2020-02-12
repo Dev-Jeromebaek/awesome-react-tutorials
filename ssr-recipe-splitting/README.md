@@ -254,8 +254,6 @@ const serverRender = async (req, res, next) => {
 - http://localhost:5000/users 에 접속하여 새로고침하면
   다음 화면과 같이 렌더링 결과물에 청크 파일이 제대로 주입된 것을 확인할 수 있음.
 
-![image-20200212132313421](/Users/chocompany/Library/Application Support/typora-user-images/image-20200212132313421.png)
-
 ##### 코드 스플리팅 + 서버 사이드 렌더링 완료.
 
 ---

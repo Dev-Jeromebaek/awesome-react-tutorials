@@ -751,9 +751,6 @@ module.exports = {
     `$ yarn build:server`
     `$ yarn start:server`
 
-
-    ![image-20200211170718628](/Users/chocompany/Library/Application Support/typora-user-images/image-20200211170718628.png)
-
 ##### 기본적인 서버 사이드 렌더링 완료.
 
 ---
